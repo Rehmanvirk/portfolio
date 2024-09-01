@@ -59,18 +59,23 @@ nav {
 /* Home Section */
 .home {
     height: 100vh;
-    background: url('background.jpg') no-repeat center center/cover;
+    background: url('bg.png') no-repeat center center/cover;
     display: flex;
     align-items: center;
     justify-content: center;
     color: #fff;
     text-align: center;
+    
 }
 
 .home .animate-text {
     opacity: 0;
     transform: translateY(50px);
     transition: all 1s ease-in-out;
+}
+.animate-text{
+    color: black;
+    margin-bottom: 10px;
 }
 
 .btn {
