@@ -59,10 +59,10 @@ nav {
 /* Home Section */
 .home {
     height: 100vh;
-    background: url('bg.png') no-repeat center center/cover;
+    /* background: url('bg.png') no-repeat center center/cover; */
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
     color: #fff;
     text-align: center;
     
@@ -76,6 +76,9 @@ nav {
 .animate-text{
     color: black;
     margin-bottom: 10px;
+}
+.home img{
+    width: 430px;
 }
 
 .btn {
